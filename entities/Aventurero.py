@@ -2,11 +2,11 @@ from abc import ABC,abstractmethod
 
 class Aventureros(ABC):
     def __init__(self,nombre,id,puntos_habilidad,experiencia,dinero):
-        self.__nombre=nombre
-        self.__id=id
-        self.__puntos_habilidad=puntos_habilidad
-        self.__experiencia=experiencia
-        self.__dinero=dinero
+        self.__nombre = nombre
+        self.__id = id
+        self.__puntos_habilidad = puntos_habilidad
+        self.__experiencia = experiencia
+        self.__dinero = dinero
 
     
     @property
