@@ -1,11 +1,13 @@
 from abc import ABC , abstractmethod
 
 class Misión(ABC):
-    def __init__(self,nombre,rango,recompensa,completado=False):
+    def __init__(self,nombre,rango,recompensa,completado,tipo_mision,min_miembros=0):
         self.__nombre=nombre
         self.__rango=rango
         self.__recompensa=recompensa
         self.__completado=completado
+        self.__tipo_mision=tipo_mision
+        self.__min_miembros=min_miembros
     
     @property
     def nombre(self):
@@ -40,6 +42,30 @@ class Misión(ABC):
     @completado.setter
     def completado(self, completado):
         self.__completado = completado
+
+
+    @property
+    def tipo_mision(self):
+        return self.__tipo_mision
+
+    @tipo_mision.setter
+    def tipo_mision(self, tipo_mision):
+        self.__tipo_mision=tipo_mision
+
+    @property
+    def min_miembros(self):
+        return self.__min_miembros
+
+    @min_miembros.setter
+    def min_miembros(self, min_miembros):
+        self.__min_miembros=min_miembros
+
+
+   
     
+
+  
+
+
     
     
