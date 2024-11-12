@@ -21,7 +21,7 @@ class Gremio:
             if rango < 1 or rango > 5:
                 print("El rango debe estar entre 1 y 5.")
                 return
-        except #Exepcion:
+        except ValueError:
             print("El rango debe ser un número entero entre 1 y 5.")
             return
 
@@ -30,7 +30,7 @@ class Gremio:
             if recompensa <= 0:
                 print("La recompensa debe ser un valor positivo.")
                 return
-        except #Exepcion:
+        except ValueError:
             print("La recompensa debe ser un número válido.")
             return
       
@@ -46,7 +46,7 @@ class Gremio:
                 if min_miembros < 1:
                     print("La cantidad mínima de miembros debe ser al menos 1.")
                     return
-            except #Exepcion:
+            except ValueError:
                 print("La cantidad mínima de miembros debe ser un número entero.")
                 return
         else:
