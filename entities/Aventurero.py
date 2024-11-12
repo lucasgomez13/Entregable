@@ -51,5 +51,8 @@ class Aventureros(ABC):
     def dinero(self,dinero):
         self.__dinero=dinero
     
+    @abstractmethod
+    def calcular_rango(self):
+        pass
     
     
