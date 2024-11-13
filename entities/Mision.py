@@ -1,6 +1,6 @@
 from abc import ABC , abstractmethod
 
-class Misión(ABC):
+class Mision(ABC):
     def __init__(self,nombre,rango,recompensa,completado=False):
         self.__nombre=nombre
         self.__rango=rango

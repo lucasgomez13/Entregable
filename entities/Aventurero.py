@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 
-class Aventureros(ABC):
+class Aventurero(ABC):
     def __init__(self,nombre,id,puntos_habilidad,experiencia,dinero):
         self.__nombre = nombre
         self.__id = id
