@@ -9,6 +9,49 @@ class Gremio:
         self.__aventureros=[]
         self.__misiones=[]
 
+    
+    
+    def registrar_aventurero(self):
+        nombre = input("Ingrese el nombre del aventurero: ")
+        id = int(input("Ingrese el ID del aventurero: "))
+        habilidad = int(input("Ingrese los puntos de habilidad (1-100): "))
+        experiencia = int(input("Ingrese los puntos de experiencia: "))
+        dinero = float(input("Ingrese la cantidad de dinero: "))
+        clase = input("Ingrese la clase (Guerrero, Mago, Ranger): ").lower()
+
+        if habilidad < 1 or habilidad > 100:
+            print("Puntos de habilidad deben ser entre 1 y 100.")
+            return
+
+        if clase == "guerrero":
+            fuerza = int(input("Ingrese la fuerza (1-100): "))
+            if fuerza < 1 or fuerza > 100:
+                print("Fuerza debe estar entre 1 y 100.")
+                return
+            nuevo_aventurero = Guerrero(nombre, id, habilidad, experiencia, dinero, fuerza)
+        elif clase == "mago":
+            mana = int(input("Ingrese el mana (1-1000): "))
+            if mana < 1 or mana > 1000:
+                print("Mana debe estar entre 1 y 1000.")
+                return
+            nuevo_aventurero = Mago(nombre, id, habilidad, experiencia, dinero, mana)
+        elif clase == "ranger":
+            mascota_nombre = input("Ingrese el nombre de la mascota: ")
+            mascota_habilidad = int(input("Ingrese los puntos de habilidad de la mascota (1-50): "))
+            if mascota_habilidad < 1 or mascota_habilidad > 50:
+                print("Los puntos de habilidad de la mascota deben ser entre 1 y 50.")
+                return
+            mascota = Mascota(mascota_nombre, mascota_habilidad)
+            nuevo_aventurero = Ranger(nombre, id, habilidad, experiencia, dinero, mascota)
+        else:
+            print("Clase no válida.")
+            return
+
+        self.__aventureros.append(nuevo_aventurero)
+        print(f"Aventurero {nombre} registrado con éxito!")
+    
+
+    
     def registrar_mision(self):
         
         nombre_mision = input("Ingrese el nombre para la misión: ")
