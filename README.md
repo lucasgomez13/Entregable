@@ -11,7 +11,7 @@ Este proyecto es un simulador de gremio de aventureros al estilo de Dungeons & D
 ## Uso de la Aplicación
                  
 - [Manejo de la aplicación](#manejo-de-la-aplicación) 
-- [Modelado (UML)](#modelo-uml)
+- [Modelado (UML)](https://github.com/lucasgomez13/Entregable/README.md)
 - [Características y Funcionalidades](#características-y-funcionalidades)
 
 ### Manejo de la Aplicación
