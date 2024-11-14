@@ -25,9 +25,10 @@ El manejo de la aplicación permite realizar diversas acciones para gestionar lo
 ### Instalación
 Requerimientos:
 
-Se necesita [Git](https://gitforwindows.org/) o descargar directamente el archivo desde esta plataforma, para ejecutarlo es necesario contar con [Python](https://www.python.org/downloads/).
+- Es necesario  contar con [Python](https://www.python.org/downloads/).
+- Descargar [Git](https://gitforwindows.org/) o directamente el archivo ZIP desde esta plataforma y ejecutar el mismo accediendo a main.py.
 
-En primera instancia se debe acceder a Bash, luego pegar el siguiente codigo:
+En caso de ejecutarlo desde Bash:
 ```
 git clone https://github.com/lucasgomez13/Entregable.git
 cd Entregable
