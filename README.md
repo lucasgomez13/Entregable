@@ -2,11 +2,7 @@
 
 # Bienvenido a nuestro Gremio de Aventureros!
 
-Este proyecto se trata de un gremio de aventureros al estilo de Dungeons & Dragons, en el mismo aplicamos lo aprendido sobre Programación Orientada a Objetos (POO), siendo nuestro proyecto final(Programación 1) de la Universidad de Montevideo. Este proyecto permite gestionar un gremio de aventureros, consultar información sobre el mismo.
-
-## Simulador de Gremio de Aventureros
-
-Este proyecto es un simulador de gremio de aventureros al estilo de Dungeons & Dragons. Utilizando Programación Orientada a Objetos (POO) en Python, se ha desarrollado una aplicación interactiva en la terminal que permite gestionar un gremio de aventureros, consultar información sobre el mismo, así como registrar y completar misiones. Fue creado por Augusto Calastretti y Lucas Gómez.
+Este proyecto se trata de un gremio de aventureros al estilo de Dungeons & Dragons, en el mismo aplicamos lo aprendido sobre Programación Orientada a Objetos (POO), representando el entregable final de la asignatura Programación 1 (Universidad de Montevideo). Este proyecto permite gestionar un gremio de aventureros, consultar información sobre el mismo, así como registrar y completar misiones. Fue creado por Augusto Calastretti y Lucas Gómez.
 
 ## Uso de la Aplicación
                  
@@ -29,10 +25,13 @@ El manejo de la aplicación permite realizar diversas acciones para gestionar lo
   - Filtrar aventureros por tipo (Guerrero, Mago, o Ranger).
 
 ### Instalación
+Requerimientos:
 
-Clona este repositorio en tu máquina local:
+Se necesita [Git](https://gitforwindows.org/) o descargar directamente el archivo desde esta plataforma, para ejecutarlo es necesario contar con [Python](https://www.python.org/downloads/).
 
--Utilizar bash.
--git clone https://github.com/lucasgomez13/Entregable/.git.
--cd Entregable.
--python3 main.py.
+En primera instancia se debe acceder a Bash, luego pegar el siguiente codigo:
+```
+git clone https://github.com/lucasgomez13/Entregable.git
+cd Entregable
+python main.py
+
