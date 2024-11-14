@@ -1,6 +1,7 @@
 # Presentamos nuestro Gremio de Aventureros!
 
-Este proyecto se trata de un gremio de aventureros al estilo de Dungeons & Dragons, en el mismo aplicamos lo aprendido sobre Programación Orientada a Objetos (POO), representando el entregable final de la asignatura Programación 1 (Universidad de Montevideo). Este proyecto permite gestionar un gremio de aventureros, consultar información sobre el mismo, así como registrar y completar misiones. Fue creado por Augusto Calastretti y Lucas Gómez.
+Este proyecto se trata de un gremio de aventureros al estilo de Dungeons & Dragons, en el mismo aplicamos lo aprendido sobre Programación Orientada a Objetos (POO), representando el entregable final de la asignatura Programación 1 (Universidad de Montevideo). Nuestro proyecto permite gestionar un gremio de aventureros, consultar información sobre el mismo, así como registrar y completar misiones. Fue creado por Augusto Calastretti y Lucas Gómez.
+
 
 ## Uso de la Aplicación
                  
@@ -9,9 +10,11 @@ Este proyecto se trata de un gremio de aventureros al estilo de Dungeons & Drago
 - [Características y Funcionalidades](#características-y-funcionalidades)
 - [Instalación](#instalación)
 
+
 ### Manejo de la Aplicación
 
 El manejo de la aplicación permite realizar diversas acciones para gestionar los aventureros y misiones del gremio. Las principales funcionalidades incluyen la creación de aventureros, registro de misiones y asignación de estas a los aventureros.
+
 
 ### Características y Funcionalidades
 
@@ -22,6 +25,7 @@ El manejo de la aplicación permite realizar diversas acciones para gestionar lo
   - Ver los top 10 aventureros con más misiones completadas o mayor habilidad.
   - Listar las misiones con las mayores recompensas.
   - Filtrar aventureros por tipo (Guerrero, Mago, o Ranger).
+
 
 ### Instalación
 Requerimientos:
