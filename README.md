@@ -32,7 +32,7 @@ El manejo de la aplicación permite realizar diversas acciones para gestionar lo
 
 Clona este repositorio en tu máquina local:
 
--Utilizar bash
--git clone https://github.com/lucasgomez13/Entregable/.git
--cd Entregable
--python3 main.py
+-Utilizar bash.
+-git clone https://github.com/lucasgomez13/Entregable/.git.
+-cd Entregable.
+-python3 main.py.
